@@ -3,9 +3,7 @@
 [![Build Status](https://travis-ci.org/cytoscape/cytoscape.js.svg?branch=master)](https://travis-ci.org/cytoscape/cytoscape.js) [![Build Status](https://travis-ci.org/cytoscape/cytoscape.js.svg?branch=unstable)](https://travis-ci.org/cytoscape/cytoscape.js)  
 *(master branch, unstable branch)*
 
-# Reveal V5 Branch
-## This is merged off cytoscape/unstable
-## When styles "text-background-padding" and "arrow-scale" are supported in master branch, we can make V6+ off that branch.
+
 
 
 Graph theory (a.k.a. network) library for analysis and visualisation : [http://js.cytoscape.org](http://js.cytoscape.org)
