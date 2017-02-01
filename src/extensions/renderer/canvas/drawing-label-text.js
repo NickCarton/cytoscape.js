@@ -237,7 +237,7 @@ CRp.drawText = function( context, ele, prefix ){
     var backgroundPadding = ele.pstyle( 'text-background-padding' ).pfValue;
 
     if( backgroundOpacity > 0 || ( textBorderWidth > 0 && borderOpacity > 0 ) ){
-      var bgX = textX - backgroundPadding;
+      var bgX = textX - backgroundPadding * 0.5;
 
       switch( halign ){
         case 'left':
@@ -250,9 +250,9 @@ CRp.drawText = function( context, ele, prefix ){
           break;
       }
 
-      var bgY = textY - textH - backgroundPadding;
-      var bgW = textW + 2*backgroundPadding;
-      var bgH = textH + 2*backgroundPadding;
+      var bgY = textY - textH;// - backgroundPadding;
+      var bgW = textW + backgroundPadding;
+      var bgH = textH; // + 2*backgroundPadding;
 
       if( backgroundOpacity > 0 ){
         var textFill = context.fillStyle;
