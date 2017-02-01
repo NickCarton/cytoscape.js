@@ -1,5 +1,9 @@
 # Cytoscape.js
 
+# Reveal V5 Branch
+## This is merged off cytoscape/unstable
+## When styles "text-background-padding" and "arrow-scale" are supported in master branch, we can make V6+ off that branch.
+
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?maxAge=1)](https://raw.githubusercontent.com/cytoscape/cytoscape.js/master/LICENSE)
 [![npm](https://img.shields.io/npm/v/cytoscape.svg?maxAge=1)](https://www.npmjs.com/package/cytoscape)
 [![npm installs](https://img.shields.io/npm/dt/cytoscape.svg?maxAge=1&label=npm%20installs)](https://www.npmjs.com/package/cytoscape)
